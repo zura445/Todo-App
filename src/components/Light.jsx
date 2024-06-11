@@ -66,21 +66,21 @@ export default function Light({ count, setCount }) {
             </div>
           ))}
           <div className="bg-white py-4 px-6 flex items-center justify-between">
-            <span className="text-sm text-mediumGray cursor-pointer">
+            <span className="text-sm text-mediumGray cursor-pointer hover:text-darckGray">
               5 items left
             </span>
             <p>
               <span className="text-sm text-blue font-bold cursor-pointer">
                 All
               </span>{" "}
-              <span className="ml-5 text-sm text-mediumGray font-bold cursor-pointer">
+              <span className="ml-5 text-sm text-mediumGray font-bold cursor-pointer hover:text-darckGray">
                 Active
               </span>
-              <span className="ml-5 text-sm text-mediumGray font-bold cursor-pointer">
+              <span className="ml-5 text-sm text-mediumGray font-bold cursor-pointer hover:text-darckGray">
                 Completed
               </span>
             </p>
-            <span className="text-sm text-mediumGray cursor-pointer">
+            <span className="text-sm text-mediumGray cursor-pointer hover:text-darckGray">
               Clear Completed
             </span>
           </div>

@@ -66,21 +66,21 @@ export default function Dark({ count, setCount }) {
           ))}
         </div>
         <div className="bg-darck text-white py-4 px-6 flex items-center justify-between">
-          <span className="text-sm text-lightDark cursor-pointer">
+          <span className="text-sm text-lightDark cursor-pointer hover:text-lightGray">
             5 items left
           </span>
           <p>
-            <span className="text-sm text-blue font-bold cursor-pointer">
+            <span className="text-sm text-blue font-bold cursor-pointer ">
               All
             </span>{" "}
-            <span className="ml-5 text-sm text-lightDark font-bold cursor-pointer">
+            <span className="ml-5 text-sm text-lightDark font-bold cursor-pointer hover:text-lightGray">
               Active
             </span>
-            <span className="ml-5 text-sm text-lightDark font-bold cursor-pointer">
+            <span className="ml-5 text-sm text-lightDark font-bold cursor-pointer hover:text-lightGray">
               Completed
             </span>
           </p>
-          <span className="text-sm text-lightDark cursor-pointer">
+          <span className="text-sm text-lightDark cursor-pointer hover:text-lightGray">
             Clear Completed
           </span>
         </div>
